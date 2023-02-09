@@ -40,7 +40,7 @@ if (from == to) {
     JOptionPane.showMessageDialog(null, "القيمتين متشابهه");
 } else {
     while (from <= to) {
-        if (from % 2 == 1) {
+        if (from % 2 == 0) {
             System.out.print(from + ", ");
         }
         from++;
@@ -136,7 +136,7 @@ if (fromNumber == toNumber) {
     JOptionPane.showMessageDialog(null, "the numbers are equal!");
 } else {
     while (fromNumber <= toNumber) {
-        if (fromNumber % 2 == 1) {
+        if (fromNumber % 2 == 0) {
             System.out.print(fromNumber + ", ");
         }
         fromNumber++;
