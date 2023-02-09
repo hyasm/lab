@@ -26,6 +26,7 @@ do {
 JOptionPane.showMessageDialog(null, "ناتج التحويل هو" + f);
 
 //
+
 double sum = 0;
 for (int i = 0; i < 5; i++) {
     double random = 1 + (int) (Math.random() * 100);
@@ -40,6 +41,7 @@ if (sum == result) {
 }
 
 //
+
 int i = 1;
 while (i <= 50) {
     if (i % 2 == 0) {
