@@ -103,7 +103,7 @@ do {
     nor = Integer.parseInt(JOptionPane.showInputDialog("Number of Repetitions"));
 
     if (nor > 0) {
-        for (int i = 0; i < count; i++) {
+        for (int i = 0; i < nor; i++) {
             System.out.print("Welcome to the first exam\n");
         }
     } else {
