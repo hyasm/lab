@@ -7,7 +7,7 @@ do {
 
     if (count > 0) {
         for (int i = 0; i < count; i++) {
-            System.out.print("Welcome to the first exam\n");
+            System.out.print("Welcome to the final exam\n");
         }
     } else {
         JOptionPane.showMessageDialog(null, "الرجاء ادخال قيمة أكبر من 0");
@@ -104,7 +104,7 @@ do {
 
     if (nor > 0) {
         for (int i = 0; i < nor; i++) {
-            System.out.print("Welcome to the first exam\n");
+            System.out.print("Welcome to the final exam\n");
         }
     } else {
         JOptionPane.showMessageDialog(null, "Enter number larger than 0");
