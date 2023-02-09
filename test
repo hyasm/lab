@@ -73,7 +73,7 @@ do {
 
 } while (choice < 1 || choice > 4);
 
-switch (choise) {
+switch (choice) {
     case 1:
         JOptionPane.showMessageDialog(null, Math.sqrt(number));
         break;
