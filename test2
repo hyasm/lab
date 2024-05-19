@@ -35,3 +35,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]
 "SchUseStrongCrypto"=dword:00000001
+
+
+New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -DnsName host.doman.com -KeySpec KeyExchange -FriendlyName SQLCert
